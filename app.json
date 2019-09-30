@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/weibo/weibo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF5e00",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"default",
+    "backgroundColor":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "color":"#8a8a8a",
+    "selectColor":"#1aad16",
+    "list":[
+        {
+          "pagePath":"pages/index/index",
+          "text":"首页",
+          "iconPath":"images/tabbar/tabbar1.png",
+          "selectedIconPath":"images/tabbar/tabbar11.png"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "通讯录",
+          "iconPath": "images/tabbar/tabbar2.png",
+          "selectedIconPath": "images/tabbar/tabbar22.png"
+        },
+        {
+          "pagePath": "pages/weibo/weibo",
+          "text": "发现",
+          "iconPath": "images/tabbar/tabbar3.png",
+          "selectedIconPath": "images/tabbar/tabbar33.png"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "我",
+          "iconPath": "images/tabbar/tabbar4.png",
+          "selectedIconPath": "images/tabbar/tabbar44.png"
+        }
+      ]
+    
+  }
+}
